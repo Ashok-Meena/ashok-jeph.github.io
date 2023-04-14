@@ -257,7 +257,6 @@ img, svg {
 
 /*contact style css---->*/
 
-
 element.style {
     max-width: 100%;
     overflow: hidden;
@@ -284,10 +283,24 @@ element.style {
     font-size: 36px;
     cursor: pointer;
 }
-
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+/* social icons colour hover-->  */
+.fa-facebook:hover{
+    color: #0046de;
+}
+.fa-instagram:hover{
+    color: #ff0095;
+}
+.fa-twitter:hover{
+    color: #0004ff;
+}
+.fa-linkedin:hover{
+    color: #0008ff;
+} 
+.fa-twitch:hover {
     color: #00ff00;
 }
+
+
 .fab {
     color: #000000;
 }
